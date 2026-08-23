@@ -4,6 +4,8 @@
 
 # Custom Agent Skills
 
+[![skills.sh](https://www.skills.sh/b/mbuyco/skills)](https://skills.sh/mbuyco/skills)
+
 A collection of custom agent skills crafted for coding agent CLI tools. Each skill provides specialized instructions and workflows for specific tasks.
 
 ## Skills Included
