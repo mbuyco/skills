@@ -38,21 +38,6 @@ Or let your agent harness auto-select the appropriate skill based on your task d
 | Claude Code | Can reference `skills/` from project instructions or custom commands |
 | Codex CLI | Can load `skills/` via `AGENTS.md` or project configuration |
 
-## Structure
-
-```
-skills/                        # Shared agent skills
-├── codebase-explorer/
-│   ├── SKILL.md               # Instructions and workflow guidance
-│   └── agents/                # Tool-specific agent definitions
-│       └── openai.yaml
-└── software-engineering-workflow/
-    ├── SKILL.md               # Instructions and workflow guidance
-    └── agents/                # Tool-specific agent definitions
-        └── openai.yaml
-
-assets/                        # Shared assets (logos, etc.)
-```
 
 Each skill contains:
 - `SKILL.md` — Instructions and workflow guidance
