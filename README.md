@@ -17,6 +17,10 @@ A collection of custom agent skills crafted for coding agent CLI tools. Each ski
 
 ## Installation
 
+```sh
+npx skills add mbuyco/skills
+```
+
 Skills are automatically available when placed in:
 - `skills/` (project-local, shared across supported agent harnesses)
 - `~/.config/opencode/skills/` (OpenCode global)
